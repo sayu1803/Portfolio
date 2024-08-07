@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="assets/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="assets/newcss.css" />
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+</head>
+
+<body oncontextmenu="return false">
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Sayantan </a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list grid">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link">
+              <i class="uil uil-estate nav__icon"></i>Home
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">
+              <i class="uil uil-user nav__icon"></i>About
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#skills" class="nav__link">
+              <i class="uil uil-file-alt nav__icon"></i>Skills
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#qualification" class="nav__link">
+              <i class="uil uil-briefcase-alt nav__icon"></i>Qualification
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#portfolio" class="nav__link">
+              <i class="uil uil-scenery nav__icon"></i>Projects
+            </a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">
+              <i class="uil uil-message nav__icon"></i>Contact-Me
+            </a>
+          </li>
+        </ul>
+        <i class="uil uil-times nav__close" id="nav-close"></i>
+      </div>
+      <div class="nav__btns">
+        <!-- Theme change button -->
+        <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class="uil uil-apps"></i>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- main-->
+
+  <main class="main">
+    <!--========================= Home =====================-->
+
+    <section class="home section" id="home">
+      <div class="home__container container grid">
+        <div class="home__content grid">
+          <div class="home__social">
+            <a href="https://www.linkedin.com/in/sayantan-pal018" target="_blank" class="home__social-icon">
+              <i class="uil uil-linkedin-alt home__icon"></i>
+            </a>
+
+            <a href="https://github.com/sayu1803" target="_blank" class="home__social-icon">
+              <i class="uil uil-github-alt home__icon"></i>
+            </a>
+          </div>
+          <div class="home__img">
+            <svg class="home__blob" viewBox="0 0 200 187" xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink">
+              <mask id="mask0" mask-type="alpha">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
+                      130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
+                      97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
+                      0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+              </mask>
+              <g mask="url(#mask0)">
+                <path d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
+                      165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
+                      129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
+                     -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z" />
+                <image class="home__blob-img" x="-79" y="-46" xlink:href="assets/img/Pro.jpg" />
+              </g>
+            </svg>
+          </div>
+          <div class="home__data">
+            <h1 class="home__title">Hi, I'm Sayantan Pal</h1>
+            <h3 class="home__subtitle">
+              B.Tech CSE specialization in Cyber Security and Digital
+              Forensics
+            </h3>
+            <p class="home__description">
+              A fourth year undergraduate at
+              <strong>Vellore Institute of Technology </strong>, Bhopal.
+            </p>
+            <a href="#contact" class="button button--flex">
+              Contact me<i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="home__scroll">
+          <a href="#about" class="home__scroll-button button--flex">
+            <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+            <span class="home__scroll-name">Scroll down</span>
+            <i class="uil uil-arrow-down home__scroll-arrow"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!--======================= About========================-->
+
+    <section class="about section" id="about">
+      <h2 class="section__title">About Me</h2>
+      <span class="section__subtitle">My introduction</span>
+
+      <div class="about__container container grid">
+        <img src="assets\img\about.jpg" alt="" class="about__img" />
+
+        <div class="about__data">
+          <p class="about__description">
+            As an experienced Full-Stack Developer with a strong MERN stack
+            background, I specialize in building scalable web applications and
+            robust backend services. My expertise includes Agile
+            methodologies, API development, and performance optimization,
+            ensuring high-quality and impactful solutions. With hands-on
+            experience in technologies such as Python, ReactJS, NodeJS, and
+            MongoDB, I am dedicated to driving innovation and delivering
+            exceptional results.
+          </p>
+<br>
+          <p class="about__description">
+            Explore my portfolio to see a selection of my work and how I
+            approach problem-solving and innovation. Whether you’re interested
+            in collaborating on a project or discussing new opportunities, I’m
+            eager to connect and explore how we can achieve exceptional
+            results together.
+          </p>
+
+          <div class="about__info">
+            <div>
+              <span class="about__info-title">7.99</span>
+              <span class="about__info-name">Aggregate <br />CGPA</span>
+            </div>
+
+            <div>
+              <span class="about__info-title">04+</span>
+              <span class="about__info-name">Months <br />experience</span>
+            </div>
+          </div>
+
+          <div class="about__buttons">
+            <a download="" href="assets/Sayantan_Pal_Afford_medical.pdf" class="button button--flex">
+              Download CV<i class="fas fa-download button__icon"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--===================== SKILLS =====================-->
+
+    <section class="skills section" id="skills">
+      <h2 class="section__title">Skills</h2>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">Programming Languages</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://www.python.org" target="_blank" rel="noreferrer">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                alt="python" width="60" height="60" />
+            </a>
+            <p class="skills__label">Python</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.java.com" target="_blank" rel="noreferrer">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg"
+                alt="java" width="60" height="60" />
+            </a>
+            <p class="skills__label">Java</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+                alt="javascript" width="60" height="60" />
+            </a>
+            <p class="skills__label">JavaScript</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">Frontend Technologies</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://angular.io" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original-wordmark.svg"
+                alt="angularjs" width="60" height="60" />
+            </a>
+            <p class="skills__label">AngularJs</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://vuejs.org/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original-wordmark.svg"
+                alt="vuejs" width="60" height="60" />
+            </a>
+            <p class="skills__label">VueJs</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://backbonejs.org" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/backbonejs/backbonejs-original-wordmark.svg"
+                alt="backbonejs" width="60" height="60" />
+            </a>
+            <p class="skills__label">BackboneJs</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://getbootstrap.com" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-plain-wordmark.svg"
+                alt="bootstrap" width="60" height="60" />
+            </a>
+            <p class="skills__label">Bootstrap</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg"
+                alt="html5" width="60" height="60" />
+            </a>
+            <p class="skills__label">HTML</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer">
+              <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg"
+                alt="css3" width="60" height="60" />
+            </a>
+            <p class="skills__label">CSS</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg"
+                alt="react" width="60" height="60" />
+            </a>
+            <p class="skills__label">ReactJs</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">Backend Technologies</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://nodejs.org" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg"
+                alt="nodejs" width="60" height="60" />
+            </a>
+            <p class="skills__label">Node.js</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://expressjs.com" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg"
+                alt="express" width="60" height="60" />
+            </a>
+            <p class="skills__label">Express.js</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                alt="mongodb" width="60" height="60" />
+            </a>
+            <p class="skills__label">MongoDB</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">Mobile App Development</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://flutter.dev" target="_blank" rel="noreferrer">
+              <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="60"
+                height="60" />
+            </a>
+            <p class="skills__label">Flutter</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://dart.dev" target="_blank" rel="noreferrer">
+              <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="dart" width="60"
+                height="60" />
+            </a>
+            <p class="skills__label">Dart</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">AI/ML</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer">
+              <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="60"
+                height="60" />
+            </a>
+            <p class="skills__label">TensorFlow</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://opencv.org/" target="_blank" rel="noreferrer">
+              <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="60" height="60" />
+            </a>
+            <p class="skills__label">OpenCV</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                alt="scikit_learn" width="60" height="60" />
+            </a>
+            <p class="skills__label">scikit-learn</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">DataBase</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg"
+                alt="mongodb" width="60" height="60" />
+            </a>
+            <p class="skills__label">MongoDB</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg"
+                alt="mysql" width="60" height="60" />
+            </a>
+            <p class="skills__label">MySQL</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
+              <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="60"
+                height="60" />
+            </a>
+            <p class="skills__label">Firebase</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
+              <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="django" width="60" height="60" />
+            </a>
+            <p class="skills__label">Django</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="skills__category">
+        <h3 class="skills__category-title">DevOPS</h3>
+        <div class="skills__grid">
+          <div class="skills__item">
+            <a href="https://aws.amazon.com" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                alt="aws" width="60" height="60" />
+            </a>
+            <p class="skills__label">AWS</p>
+          </div>
+          <div class="skills__item">
+            <a href="https://www.docker.com/" target="_blank" rel="noreferrer">
+              <img
+                src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg"
+                alt="docker" width="60" height="60" />
+            </a>
+            <p class="skills__label">Docker</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!--==================== Qualifications ==================-->
+
+    <section class="qualification__section service__section" id="qualification">
+      <h2 class="section__title">Qualification</h2>
+      <span class="section__subtitle">My personal journey</span>
+
+      <div class="qualification__container container grid services__container">
+        <div class="qualification__tabs">
+          <div class="qualification__button button--flex qualification__active" data-target="#education">
+            <i class="uil uil-graduation-cap qualification__icon"></i>
+            Education
+          </div>
+        </div>
+
+        <div class="qualification__sections">
+          <!--====== Qualification Content 1 ======-->
+          <div class="qualification__content qualifiation__active services__content" data-content id="education">
+            <!--====== Qualification 1 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">10th CBSE</h3>
+                <span class="qualification__subtitle">K.V.I.O.C,Haldia <br />High School</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2019
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      Class 10th Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Subjects studied: Science, Maths, English, Social
+                          Studies,Hindi.
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 79.4%</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Semi Finalist in District level Badminton</p>
+
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+
+                        <p>Tritiya Sopan qualified in Bharat Scout and Guides</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+            </div>
+
+            <!--====== Qualification 2 ======-->
+            <div class="qualification__data">
+              <div></div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <span class="qualification__line"></span>
+              </div>
+              <div>
+                <h3 class="qualification__title">Class 12th CBSE</h3>
+                <span class="qualification__subtitle">K.V.I.O.C,Haldia <br />Higher Secondary School</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  - 2021
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">
+                      Class 12th Summary :
+                    </h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>
+                          Subjects studied: Physics, Chemistry, Maths,Computer Science
+                          English,Physical Education.
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__moda-icon"></i>
+                        <p>Scored 85.2%</p>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!--====== Qualification 3 ======-->
+            <div class="qualification__data">
+              <div>
+                <h3 class="qualification__title">Under Graduate</h3>
+                <span class="qualification__subtitle">Vellore Institute of Technology, Bhopal</span>
+                <div class="qualification__calender">
+                  <i class="uil uil-calendar-alt"></i>
+                  2021 - 2025
+                </div>
+                <span class="button button--flex button--small button--link services__button">
+                  View More
+                  <i class="uil uil-arrow-right button__icon"></i>
+                </span>
+                <div class="services__modal">
+                  <div class="services__modal-content">
+                    <h4 class="services__modal-title">College Summary :</h4>
+                    <i class="uil uil-times services__modal-close"></i>
+                    <ul class="services__modal-services grid">
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>
+                          Studying B.Tech CSE specialization in Cyber Security and Digital Forensics
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>Scored an aggregate of 7.99 CGPA till now.</p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>
+                          Semi-Finalist in Intra University Chess Tournament
+                        </p>
+                      </li>
+                      <li class="services__modal-service">
+                        <i class="uil uil-check-circle services__modal-icon"></i>
+                        <p>
+                          Core member of Fusion Club
+                        </p>
+                      </li>
+
+
+
+
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div>
+                <span class="qualification__rounder"></span>
+                <!--<span class="qualification__line"></span>-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--=================== Portfolio ===================-->
+    <section class="portfolio section" id="portfolio">
+      <h2 class="section__title">Projects</h2>
+      <span class="section__subtitle">Most recent work</span>
+
+      <div class="portfolio__container container swiper-container">
+        <div class="swiper-wrapper">
+          <!-- ------------------------portfollio 1-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio5.png" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">IntegrityWatch</h3>
+              <p class="portfolio__description">
+                Developed a comprehensive file integrity monitoring system that ensures real-time tracking of file
+                changes, deletions, and additions. This solution employs advanced features like anomaly detection and
+                tamper-proof logging to bolster security and data integrity. Implemented using Python for scripting and
+                leveraging SMS notifications for real-time alerts, the system significantly enhances file security
+                management.
+
+
+              </p>
+              <a href="https://github.com/sayu1803/IntegrityWatch"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://www.linkedin.com/posts/sayantan-pal018_python-cybersecurity-dataintegrity-activity-7196912815482265601-_dK6?utm_source=share&utm_medium=member_desktop"
+                class="button button--flex button--small portfolio__button">
+                Live Demonstration
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+          <!-- ------------------------portfollio 2-------------------- -->
+
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio1.png" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">
+                Kheti Shayak Android Application
+              </h3>
+              <p class="portfolio__description">
+                Kheti Sahayak is an innovative platform designed to optimize agricultural operations by connecting
+                farmers with essential tools and resources. The system facilitates seamless tool sharing through a
+                user-friendly interface, leveraging advanced algorithms for precise matching based on availability and
+                seasonal needs. It incorporates secure authentication, real-time notifications, and a digital wallet for
+                efficient transactions. The platform also supports job opportunities and integrates a feedback mechanism
+                to ensure reliability. An admin panel with robust security features manages user interactions and
+                platform integrity, fostering a collaborative farming ecosystem and enhancing agricultural efficiency.
+              </p>
+              <a href="https://github.com/sayu1803/KhetiSahayak"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+              <a href="https://docs.google.com/document/d/1XAubtzuul0joTELXh9THUNgtfJfU-O2hCW6hUmedazo/edit?usp=sharing"
+                class="button button--flex button--small portfolio__button">
+                Project Report
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+            </div>
+          </div>
+
+          <!-- ------------------------portfollio 3-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio2.png" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">JobConnect</h3>
+              <p class="portfolio__description">
+                JobConnect is an advanced job portal web application designed to streamline the hiring process for
+                employers and job seekers alike. The platform facilitates job seekers in registering, creating profiles,
+                uploading resumes, and browsing job listings by category. Employers can efficiently post job vacancies,
+                search for potential candidates, and manage applications. Utilizing advanced search algorithms,
+                JobConnect accurately matches candidates with relevant job postings. Key features include secure user
+                authentication, real-time notifications, a feedback system, and an admin panel with robust security and
+                comprehensive management functionalities to ensure smooth and secure platform operations.
+              </p>
+              <a href="https://github.com/sayu1803/Job-Portal"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+
+            </div>
+          </div>
+          <!-- ------------------------portfollio 4-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio3.png" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">FoodY </h3>
+              <p class="portfolio__description">
+                The E-Restaurant Full Stack Application is an innovative digital platform designed to revolutionize the
+                dining experience by offering seamless online ordering, detailed menu insights, and personalized
+                recommendations. The application features secure user registration and authentication, allowing
+                customers to easily browse and order from a curated menu that includes diverse categories such as soups,
+                pizzas, salads, and desserts. With real-time updates on order status and integrated payment gateways,
+                the platform ensures a smooth and efficient ordering process. Additionally, the application provides
+                restaurant owners with valuable insights into customer preferences and engagement, enabling them to
+                optimize their offerings. The modern, responsive design ensures a user-friendly interface across all
+                devices, making dining more convenient and enjoyable for everyone.
+              </p>
+              <a href="https://github.com/sayu1803/E-Resturant"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+
+            </div>
+          </div>
+
+          <!-- ------------------------portfollio 5-------------------- -->
+          <div class="portfolio__content grid swiper-slide">
+            <img src="assets/img/portfolio4.png" class="portfolio__img" />
+
+            <div class="portfolio__data">
+              <h3 class="portfolio__title">MedTrack</h3>
+              <p class="portfolio__description">
+                MedTrack is a comprehensive web application designed to streamline the management of personal medical
+                histories, providing users with a secure, intuitive platform for storing and accessing their health
+                information. This application features robust user authentication and data encryption to ensure privacy
+                and security. Users can log their medical records, track their health metrics, and upload essential
+                documents such as lab results and prescriptions. MedTrack also includes an interactive chatbot interface
+                to assist with common medical queries and offers personalized health tips based on the user's medical
+                history. With informative medical pages, users can stay informed about various health conditions and
+                treatments. The user-friendly design and responsive interface make it easy for individuals to manage
+                their health data from any device, promoting better health management and informed decision-making.
+              </p>
+              <a href="https://github.com/sayu1803/PersonalMedTracker"
+                class="button button--flex button--small portfolio__button">
+                GitHub Repository
+                <i class="uil uil-external-link-alt button__icon"></i>
+              </a>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- add arrows -->
+        <div class="swiper-button-next">
+          <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+        </div>
+        <div class="swiper-button-prev">
+          <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+        </div>
+        <!-- add pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <!--===================== Contact Me =====================-->
+    <section class="contact section" id="contact">
+      <h2 class="section__title">Contact Me</h2>
+      <span class="section__subtitle">Get in touch</span>
+
+      <div class="contact__container container grid">
+        <div>
+          <div class="contact__information">
+            <i class="uil uil-calling contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Contact Me</h3>
+              <span class="contact__subtitle"><a href="tel:7679573383"></a>7679573383</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-envelope-minus contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Email</h3>
+              <span class="contact__subtitle">sayantanrabi.03@gmail.com</span>
+            </div>
+          </div>
+
+          <div class="contact__information">
+            <i class="uil uil-map-marker contact__icon"></i>
+
+            <div>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__subtitle">Bhopal, Madhya Pradesh, India</span>
+            </div>
+          </div>
+        </div>
+
+        <form action="" class="contact__form grid">
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="" class="content__label">Name</label>
+              <input type="text" class="contact__input" />
+            </div>
+
+            <div class="contact__content">
+              <label for="" class="content__label">Email</label>
+              <input type="Email" class="contact__input" />
+            </div>
+          </div>
+
+          <div class="contact__content">
+            <label for="" class="content__label">Message</label>
+            <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+          </div>
+
+          <div>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=sayantanrabi.03@gmail.com&su=Testing%20out%20mailto!&body=This%20is%20only%20a%20test!"
+              class="button button--flex">
+              Send Email
+            </a>
+
+            Send Message
+            <i class="uil uil-message button__icon"></i>
+            </a>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--================== Footer ===============-->
+  <footer class="footer">
+    <div class="footer__bg">
+      <div class="footer__container container grid">
+        <div>
+          <h1 class="footer__title">Sayantan</h1>
+          <span class="footer__subtitle">B.Tech CSE specialization in Cyber Security and Digital
+            Forensics</span>
+        </div>
+
+        <ul class="footer__links">
+          <li>
+            <a href="#qualification" class="footer__link">Qualification</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="footer__link">Portfolio</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer__link">Contact-Me</a>
+          </li>
+        </ul>
+
+        <div class="footer__socials">
+          <a href="https://www.instagram.com/its_sayu_018/" class="footer__social" target="__blank">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          
+        </div>
+      </div>
+
+      <p class="footer__copy">&#169; Sayantan. All right reserved</p>
+    </div>
+  </footer>
+
+  <!--================== SCROLL TOP ==================-->
+  <a href="#" class="scrollup" id="scroll-up">
+    <i class="uil uil-arrow-up scrollup__icon"></i>
+  </a>
+
+  <script type="text/javascript" src="assets/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/2205d59d52.js" crossorigin="anonymous"></script>
+  <script src="assets/ptj.js"></script>
+</body>
+
+</html>
